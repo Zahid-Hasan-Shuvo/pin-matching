@@ -36,7 +36,7 @@ document.getElementById('calculator').addEventListener('click', function(event){
    else if(number === '<'){
     const digits = previousTypedNumber.split('');
     digits.pop();
-    const remainingDigits=digit.join('');
+    const remainingDigits=digits.join('');
     typeNumberField.value=remainingDigits;
    }
  }
